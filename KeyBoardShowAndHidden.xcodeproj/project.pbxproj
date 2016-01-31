@@ -15,6 +15,7 @@
 		5504F89A1C5E387D0007A67F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5504F8981C5E387D0007A67F /* LaunchScreen.storyboard */; };
 		5504F8A51C5E387D0007A67F /* KeyBoardShowAndHiddenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5504F8A41C5E387D0007A67F /* KeyBoardShowAndHiddenTests.m */; };
 		5504F8B01C5E387D0007A67F /* KeyBoardShowAndHiddenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5504F8AF1C5E387D0007A67F /* KeyBoardShowAndHiddenUITests.m */; };
+		5504F8C21C5E57600007A67F /* UIView+KeyBoardShowAndHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = 5504F8C11C5E57600007A67F /* UIView+KeyBoardShowAndHidden.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5504F8AB1C5E387D0007A67F /* KeyBoardShowAndHiddenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyBoardShowAndHiddenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5504F8AF1C5E387D0007A67F /* KeyBoardShowAndHiddenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyBoardShowAndHiddenUITests.m; sourceTree = "<group>"; };
 		5504F8B11C5E387D0007A67F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5504F8C01C5E57600007A67F /* UIView+KeyBoardShowAndHidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KeyBoardShowAndHidden.h"; sourceTree = "<group>"; };
+		5504F8C11C5E57600007A67F /* UIView+KeyBoardShowAndHidden.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KeyBoardShowAndHidden.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				5504F88E1C5E387D0007A67F /* AppDelegate.m */,
 				5504F8901C5E387D0007A67F /* ViewController.h */,
 				5504F8911C5E387D0007A67F /* ViewController.m */,
+				5504F8C01C5E57600007A67F /* UIView+KeyBoardShowAndHidden.h */,
+				5504F8C11C5E57600007A67F /* UIView+KeyBoardShowAndHidden.m */,
 				5504F8931C5E387D0007A67F /* Main.storyboard */,
 				5504F8961C5E387D0007A67F /* Assets.xcassets */,
 				5504F8981C5E387D0007A67F /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5504F8C21C5E57600007A67F /* UIView+KeyBoardShowAndHidden.m in Sources */,
 				5504F8921C5E387D0007A67F /* ViewController.m in Sources */,
 				5504F88F1C5E387D0007A67F /* AppDelegate.m in Sources */,
 				5504F88C1C5E387D0007A67F /* main.m in Sources */,
